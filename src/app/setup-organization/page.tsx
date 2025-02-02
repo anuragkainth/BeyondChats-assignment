@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { FaGlobe, FaTwitter, FaLink, FaTv, FaPalette, FaInstagram, FaFacebook, FaEnvelope, FaBell, FaPhone } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaFacebook, FaEnvelope, FaBell, FaPhone } from "react-icons/fa";
 
 export default function SetupOrganization() {
   const [activeTab, setActiveTab] = useState("details");
